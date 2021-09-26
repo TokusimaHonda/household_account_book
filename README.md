@@ -49,3 +49,8 @@ pip install -r requirements.txt
 django-admin startproject household_account_book
 python manage.py runserver
 ```
+
+```
+python manage.py makemigrations
+python manage.py migrate 
+```
